@@ -18,20 +18,20 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Manager\\Manager.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Manager\\Manager.csproj"
+              "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Manager\\EmployeeManager.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Manager\\EmployeeManager.csproj"
               },
-              "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\Model.csproj"
+              "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\EmployeeModel.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\EmployeeModel.csproj"
               }
             }
           }
@@ -43,11 +43,17 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
               "version": "[2.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -76,12 +82,12 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Manager\\Manager.csproj": {
+    "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Manager\\EmployeeManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Manager\\Manager.csproj",
-        "projectName": "Manager",
-        "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Manager\\Manager.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Manager\\EmployeeManager.csproj",
+        "projectName": "EmployeeManager",
+        "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Manager\\EmployeeManager.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Manager\\obj\\",
         "projectStyle": "PackageReference",
@@ -90,20 +96,20 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\Model.csproj"
+              "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\EmployeeModel.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\EmployeeModel.csproj"
               },
-              "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\Repository.csproj"
+              "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\EmployeeRepository.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\EmployeeRepository.csproj"
               }
             }
           }
@@ -115,7 +121,15 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -135,12 +149,12 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\Model.csproj": {
+    "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\EmployeeModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\Model.csproj",
-        "projectName": "Model",
-        "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\EmployeeModel.csproj",
+        "projectName": "EmployeeModel",
+        "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\EmployeeModel.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\obj\\",
         "projectStyle": "PackageReference",
@@ -149,14 +163,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netcoreapp2.1": {
             "projectReferences": {}
           }
         },
@@ -167,7 +181,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -182,6 +196,12 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
             }
           },
           "imports": [
@@ -194,21 +214,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\Repository.csproj": {
+    "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\EmployeeRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\Repository.csproj",
-        "projectName": "Repository",
-        "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\EmployeeRepository.csproj",
+        "projectName": "EmployeeRepository",
+        "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\EmployeeRepository.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\obj\\",
         "projectStyle": "PackageReference",
@@ -217,17 +232,17 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\Model.csproj"
+              "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\EmployeeModel.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\EmployeeModel.csproj"
               }
             }
           }
@@ -239,7 +254,15 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
           "imports": [
             "net461",
             "net462",

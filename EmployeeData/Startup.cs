@@ -16,13 +16,22 @@ using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace EmployeeData
 {
+    /// <summary>
+    /// startup class
+    /// </summary>
     public class Startup
     {
+        /// <summary>
+        /// constructor
+        /// </summary>
+        /// <param name="configuration"></param>
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
-
+        /// <summary>
+        /// proporty
+        /// </summary>
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -31,7 +40,10 @@ namespace EmployeeData
              services.AddDbContextPool<EmployeeContext>(options => options.UseSqlServer(Configuration.GetConnectionString("EmployeeDB")));
              services.AddControllers();
          }*/
-       
+       /// <summary>
+       /// method
+       /// </summary>
+       /// <param name="services"></param>
             public void ConfigureServices(IServiceCollection services)
                 => services.AddDbContext<EmployeeContext>();
         
