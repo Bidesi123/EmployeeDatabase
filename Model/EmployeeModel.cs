@@ -6,8 +6,14 @@ using System.Text;
 
 namespace Model
 {
+    /// <summary>
+    /// Employee class
+    /// </summary>
    public class Employee
     {
+        /// <summary>
+        /// initialising of data with get and set method
+        /// </summary>
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int EmployeeId { get; set; }

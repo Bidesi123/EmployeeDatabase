@@ -11,6 +11,10 @@ namespace Model
         {
 
         }*/
+        /// <summary>
+        /// overidden method
+        /// </summary>
+        /// <param name="optionBuilder"></param>
         protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
         {
             optionBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Integrated Security=True");
