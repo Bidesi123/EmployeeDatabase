@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\Repository.csproj": {}
+    "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\EmployeeRepository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\Model.csproj": {
+    "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\EmployeeModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\Model.csproj",
-        "projectName": "Model",
-        "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\EmployeeModel.csproj",
+        "projectName": "EmployeeModel",
+        "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\EmployeeModel.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\obj\\",
         "projectStyle": "PackageReference",
@@ -73,12 +73,12 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\Repository.csproj": {
+    "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\EmployeeRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\Repository.csproj",
-        "projectName": "Repository",
-        "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\EmployeeRepository.csproj",
+        "projectName": "EmployeeRepository",
+        "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\EmployeeRepository.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Repository\\obj\\",
         "projectStyle": "PackageReference",
@@ -96,8 +96,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\Model.csproj"
+              "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\EmployeeModel.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\source\\repos\\EmployeeData\\Model\\EmployeeModel.csproj"
               }
             }
           }
