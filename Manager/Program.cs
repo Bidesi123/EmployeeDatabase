@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Manager
+namespace EmployeeManager
 {
     class Program
     {

@@ -1,16 +1,19 @@
 ﻿using System;
-using Model;
+using EmployeeModel;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Manager
+namespace EmployeeManager
 {
-  public interface IManager
+    /// <summary>
+    /// interface
+    /// </summary>
+  public interface IEmployeeManager
     {
-       public Task<int> AddEmployee(Employee employee);
-        public Task<int> DeleteEmployee(Employee employee);
-        public IEnumerable<Task<int>> GetAllEmployee();
+        Task<int> AddEmployee(Employee employee);
+         Task<int> DeleteEmployee(Employee employee);
+         IEnumerable<Employee> GetAllEmployee();
 
     }
 }
