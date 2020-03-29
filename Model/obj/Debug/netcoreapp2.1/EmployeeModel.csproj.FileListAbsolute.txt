@@ -1,0 +1,12 @@
+C:\Users\ASUS\source\repos\EmployeeData\Model\bin\Debug\netcoreapp2.1\EmployeeModel.deps.json
+C:\Users\ASUS\source\repos\EmployeeData\Model\bin\Debug\netcoreapp2.1\EmployeeModel.runtimeconfig.json
+C:\Users\ASUS\source\repos\EmployeeData\Model\bin\Debug\netcoreapp2.1\EmployeeModel.runtimeconfig.dev.json
+C:\Users\ASUS\source\repos\EmployeeData\Model\bin\Debug\netcoreapp2.1\EmployeeModel.dll
+C:\Users\ASUS\source\repos\EmployeeData\Model\bin\Debug\netcoreapp2.1\EmployeeModel.pdb
+C:\Users\ASUS\source\repos\EmployeeData\Model\obj\Debug\netcoreapp2.1\EmployeeModel.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\EmployeeData\Model\obj\Debug\netcoreapp2.1\EmployeeModel.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\EmployeeData\Model\obj\Debug\netcoreapp2.1\EmployeeModel.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\EmployeeData\Model\obj\Debug\netcoreapp2.1\EmployeeModel.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\EmployeeData\Model\obj\Debug\netcoreapp2.1\EmployeeModel.dll
+C:\Users\ASUS\source\repos\EmployeeData\Model\obj\Debug\netcoreapp2.1\EmployeeModel.pdb
+C:\Users\ASUS\source\repos\EmployeeData\Model\obj\Debug\netcoreapp2.1\EmployeeModel.genruntimeconfig.cache
