@@ -1,19 +1,22 @@
 ﻿using System;
-using Model;
+using EmployeeModel;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repository
+namespace EmployeeRepository
 {
-   public interface IRepository
+    /// <summary>
+    /// repository interface
+    /// </summary>
+   public interface IEmployeeRepository
     {
-        public Task<int> GetEmployee(int id);
-       public IEnumerable<Task<int>> GetAllEmployee();
+        Employee GetEmployee(int id);
+        IEnumerable<Employee> GetAllEmployee();
 
-        public Task<int> AddEmployee(Employee employee);
-        public Task<int> UpdateEmployee(Employee employee);
-        public Task<int> DeleteEmployee(Employee employee);
+        Task<int> AddEmployee(Employee employee);
+        Task<int> UpdateEmployee(Employee employee);
+        Task<int> DeleteEmployee(Employee employee);
         
     }
 }

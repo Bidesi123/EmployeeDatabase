@@ -1,0 +1,15 @@
+C:\Users\ASUS\source\repos\EmployeeData\Repository\bin\Debug\netcoreapp2.1\EmployeeRepository.deps.json
+C:\Users\ASUS\source\repos\EmployeeData\Repository\bin\Debug\netcoreapp2.1\EmployeeRepository.runtimeconfig.json
+C:\Users\ASUS\source\repos\EmployeeData\Repository\bin\Debug\netcoreapp2.1\EmployeeRepository.runtimeconfig.dev.json
+C:\Users\ASUS\source\repos\EmployeeData\Repository\bin\Debug\netcoreapp2.1\EmployeeRepository.dll
+C:\Users\ASUS\source\repos\EmployeeData\Repository\bin\Debug\netcoreapp2.1\EmployeeRepository.pdb
+C:\Users\ASUS\source\repos\EmployeeData\Repository\bin\Debug\netcoreapp2.1\EmployeeModel.dll
+C:\Users\ASUS\source\repos\EmployeeData\Repository\bin\Debug\netcoreapp2.1\EmployeeModel.pdb
+C:\Users\ASUS\source\repos\EmployeeData\Repository\obj\Debug\netcoreapp2.1\EmployeeRepository.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\EmployeeData\Repository\obj\Debug\netcoreapp2.1\EmployeeRepository.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\EmployeeData\Repository\obj\Debug\netcoreapp2.1\EmployeeRepository.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\EmployeeData\Repository\obj\Debug\netcoreapp2.1\EmployeeRepository.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\EmployeeData\Repository\obj\Debug\netcoreapp2.1\EmployeeRepository.csproj.CopyComplete
+C:\Users\ASUS\source\repos\EmployeeData\Repository\obj\Debug\netcoreapp2.1\EmployeeRepository.dll
+C:\Users\ASUS\source\repos\EmployeeData\Repository\obj\Debug\netcoreapp2.1\EmployeeRepository.pdb
+C:\Users\ASUS\source\repos\EmployeeData\Repository\obj\Debug\netcoreapp2.1\EmployeeRepository.genruntimeconfig.cache

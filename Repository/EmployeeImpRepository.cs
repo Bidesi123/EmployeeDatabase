@@ -1,22 +1,24 @@
-﻿using Model;
+﻿using EmployeeModel;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repository
+namespace EmployeeRepository
 {
-    public class ImpRepository : IRepository
+    /// <summary>
+    /// repository implemented class
+    /// </summary>
+    public class EmployeeImpRepository : IEmployeeRepository
     {
         private readonly EmployeeContext employeeContext;
-        public ImpRepository(EmployeeContext employeeContext)
+        public EmployeeImpRepository(EmployeeContext employeeContext)
         {
             this.employeeContext = employeeContext;
         }
-        public Task<int> GetEmployee(int id)
+        public Employee GetEmployee(int id)
         {
-            EmployeeContext.Employees.Find(id);
-
+           return employeeContext.Employees.Find(id);
         }
         public Task<int> AddEmployee(Employee employee)
         {
@@ -24,9 +26,12 @@ namespace Repository
            var result= employeeContext.SaveChangesAsync();
            return result;           
         }
-        public Task<int> UpdateEmployee(Employee employee)
+        public Task<int> UpdateEmployee(Employee NewEmployee)
         {
-            
+            var employee = employeeContext.Employees.Attach(NewEmployee);
+            employee.State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            var result = employeeContext.SaveChangesAsync();
+            return result;
         }
         public Task<int> DeleteEmployee(Employee employee)
         {
@@ -34,10 +39,9 @@ namespace Repository
             var result = employeeContext.SaveChangesAsync();
             return result;
         }
-
-        IEnumerable<Task<int>> IRepository.GetAllEmployee()
+       public IEnumerable<Employee> GetAllEmployee()
         {
-            throw new NotImplementedException();
+            return employeeContext.Employees;
         }
     }
 }
