@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body{
+  background-color: darkolivegreen;
+}
+.email-head{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;;
+ 
+}
+.password-head{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 5px;
+  
+  
+}
+.login{
+ position:relative;
+ left: 590px;
+ margin: 5px;
+} 
+ /* .main-head {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
+.login-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.empTable{
+ position: relative;
+ top: 60px;
+ left: 150px;
+ background-color: white;
+ /* display: flex;
+ justify-content:space-between;
+ align-items: center;
+ flex-direction: column;
+ padding-left: 0px;
+ margin: 20px; */
+}
+.head-div{
+  height: 20%;
+  width: 100%;
+  background-color: darkseagreen;
+}
+.Add-btn{
+  position: relative;
+  left: 150px;
+  top: 40px;
+}
+.addEmp-div{
+  position: relative;
+  left:150px;
+}
+.sentence1-div{
+  position: relative;
+  left: 500px;
+}
+.sentence2-div{
+  position: relative;
+  left: 400px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
